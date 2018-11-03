@@ -1,5 +1,5 @@
 Jets.application.configure do
-  config.project_name = "demo"
+  config.project_name = "mega"
   config.mode = "html"
 
   # Lazy loads ruby and gems as part of first request. Prewarming will handles
