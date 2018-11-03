@@ -1,0 +1,27 @@
+<% editing = @event["path"].include?("edit") %>
+<% action = editing ? "/posts/#{post.id}" : "/posts" %>
+<%= form_tag(action) do %>
+<% if editing -%>
+  <input type="hidden" name="_method" value="put" />
+<% end -%>
+  <% if post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
+
+      <ul>
+      <% post.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= label_tag :title %>
+    <%= text_field_tag "post[title]", post.title %>
+  </div>
+
+  <div class="actions">
+    <%= submit_tag("Submit") %>
+  </div>
+<% end %>

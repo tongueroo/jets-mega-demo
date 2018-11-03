@@ -1,4 +1,5 @@
 Jets.application.routes.draw do
+  resources :posts
   # Default homepage. This should be replaced. Replacing requires using JETS_ENV_EXTRA
   # or deleting and deploying twice.
   # More info:
