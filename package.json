@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@rails/webpacker": "^3.5.5",
+    "bootstrap": "4.0.0-beta",
+    "coffeescript": "1.12.7",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.1.10"
+  }
+}
