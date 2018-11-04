@@ -89,7 +89,7 @@ GEM
     hashie (3.6.0)
     i18n (1.1.1)
       concurrent-ruby (~> 1.0)
-    jets (1.0.6)
+    jets (1.0.8)
       actionpack (>= 5.2.1)
       actionview (>= 5.2.1)
       activerecord (>= 5.2.1)
