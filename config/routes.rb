@@ -13,5 +13,7 @@ Jets.application.routes.draw do
   # More info here: http://rubyonjets.com/docs/assets-serving/
   # any "*catchall", to: "jets/public#show"
   # Enables Mega Mode Rails integration
+  # any "*catchall", to: "jets/rack#process"
+  # Enables Mega Mode Rails integration
   any "*catchall", to: "jets/rack#process"
 end
