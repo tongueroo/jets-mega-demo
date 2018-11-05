@@ -1,11 +1,28 @@
-# Jets Project
+# Jets Mega Mode Rails Support Demo
 
-This README would normally document whatever steps are necessary to get the application up and running.
+* Blog Post: [Jets Mega Mode: Run Rails on AWS Lambda](https://blog.boltops.com/2018/11/03/jets-mega-mode-run-rails-on-aws-lambda)
+* [Live Mega Mode Demo](https://mega.demo.rubyonjets.com/)
 
-Things you might want to cover:
+## Rails Urls
 
-* Dependencies
-* Configuration
-* Database setup
-* How to run the test suite
-* Deployment instructions
+These urls hit the imported Rails app.
+
+* [Info Endpoint](https://mega.demo.rubyonjets.com/info)
+* [Books CRUD](https://mega.demo.rubyonjets.com/books)
+
+## Jets Urls
+
+This urls hit the Jets app and stack only.
+
+* [Welcome page](https://mega.demo.rubyonjets.com/)
+* [Posts CRUD](https://mega.demo.rubyonjets.com/posts)
+
+## Jets Docs
+
+* [Jets Rails Support](http://rubyonjets.com/docs/rails-support/)
+* [Jets Mega Mode](http://rubyonjets.com/docs/megamode/)
+* [Ruby on Jets](http://rubyonjets.com)
+
+## Mega Mode Video Tutorial
+
+[![Jets Mega Mode: Rails on AWS Lambda](https://img.youtube.com/vi/hr-A6AHXuO0/0.jpg)](https://www.youtube.com/watch?v=hr-A6AHXuO0)
