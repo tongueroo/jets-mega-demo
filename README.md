@@ -3,14 +3,14 @@
 * Blog Post: [Jets Mega Mode: Run Rails on AWS Lambda](https://blog.boltops.com/2018/11/03/jets-mega-mode-run-rails-on-aws-lambda)
 * [Live Mega Mode Demo](https://mega.demo.rubyonjets.com/)
 
-## Rails Urls
+## Rails Demo Urls
 
 These urls hit the imported Rails app.
 
 * [Info Endpoint](https://mega.demo.rubyonjets.com/info)
 * [Books CRUD](https://mega.demo.rubyonjets.com/books)
 
-## Jets Urls
+## Jets Demo Urls
 
 This urls hit the Jets app and stack only.
 
