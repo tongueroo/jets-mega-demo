@@ -24,7 +24,11 @@ class PostsController < ApplicationController
     @post = Post.new(post_params)
 
     if @post.save
-      redirect_to "/posts/#{@post.id}"
+      if request.xhr?
+        render json: {success: true, location: url_for("/posts/#@{post.id}")}
+      else
+        redirect_to "/posts/#{@post.id}"
+      end
     else
       render :new
     end
@@ -33,7 +37,11 @@ class PostsController < ApplicationController
   # PUT /posts/1
   def update
     if @post.update(post_params)
-      render json: {success: true, location: url_for("/posts/#{@post.id}")}
+      if request.xhr?
+        render json: {success: true, location: url_for("/posts/#@{post.id}")}
+      else
+        redirect_to "/posts/#{@post.id}"
+      end
     else
       render :edit
     end

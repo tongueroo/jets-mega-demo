@@ -13,6 +13,3 @@ tmp
 /public/packs
 /public/packs-test
 /node_modules
-
-/rack/public/assets/.sprockets-manifest-*.json
-*.log
