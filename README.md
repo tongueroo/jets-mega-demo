@@ -25,4 +25,4 @@ This urls hit the Jets app and stack only.
 
 ## Mega Mode Video Tutorial
 
-[![Jets Mega Mode: Rails on AWS Lambda](https://img.youtube.com/vi/hr-A6AHXuO0/0.jpg)](https://www.youtube.com/watch?v=hr-A6AHXuO0)
+[![Jets Mega Mode: Rails on AWS Lambda](https://img.youtube.com/vi/gDLH9ui9ITk/0.jpg)](https://www.youtube.com/watch?v=gDLH9ui9ITk)
