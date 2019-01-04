@@ -26,3 +26,5 @@ This urls hit the Jets app and stack only.
 ## Mega Mode Video Tutorial
 
 [![Jets Mega Mode: Rails on AWS Lambda](https://img.youtube.com/vi/gDLH9ui9ITk/0.jpg)](https://www.youtube.com/watch?v=gDLH9ui9ITk)
+
+If you find Jets interesting, please it a GitHub star <a href="https://github.com/tongueroo/jets">tongueroo/jets</a>. It helps others find out about the project.  I'd appreciate it!
