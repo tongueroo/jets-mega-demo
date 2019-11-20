@@ -3,7 +3,7 @@
     "@rails/webpacker": "^3.5.5",
     "bootstrap": "4.0.0-beta",
     "coffeescript": "1.12.7",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.0",
     "popper.js": "^1.14.6"
   },
   "devDependencies": {
