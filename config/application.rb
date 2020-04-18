@@ -54,4 +54,10 @@ Jets.application.configure do
   # us-east-1 EDGE endpoint
   # config.domain.cert_arn = "arn:aws:acm:us-east-1:112233445566:certificate/d68472ba-04f8-45ba-b9db-14f839d57123"
   # config.domain.endpoint_type = "EDGE"
+
+  if ENV['CERT_ARN'] && ENV['JETS_ENV_EXTRA'].nil?
+    config.domain.name = "mega.demo.rubyonjets.com"
+    config.domain.hosted_zone_name = "demo.rubyonjets.com"
+    config.domain.cert_arn = ENV['CERT_ARN']
+  end
 end
