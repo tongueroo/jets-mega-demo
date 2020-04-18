@@ -1,5 +1,7 @@
 # Jets Mega Mode Rails Support Demo
 
+[![BoltOps Badge](https://img.boltops.com/boltops/badges/boltops-badge.png)](https://www.boltops.com)
+
 * Blog Post: [Jets Mega Mode: Run Rails on AWS Lambda](https://blog.boltops.com/2018/11/03/jets-mega-mode-run-rails-on-aws-lambda)
 * [Live Mega Mode Demo](https://mega.demo.rubyonjets.com/)
 
