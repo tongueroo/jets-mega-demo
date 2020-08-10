@@ -60,4 +60,8 @@ Jets.application.configure do
     config.domain.hosted_zone_name = "demo.rubyonjets.com"
     config.domain.cert_arn = ENV['CERT_ARN']
   end
+
+  config.gems.sources = [
+    "https://lambdagems2.s3-us-west-2.amazonaws.com"
+  ]
 end
